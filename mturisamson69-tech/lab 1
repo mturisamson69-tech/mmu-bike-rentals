@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOzlnBVyMro7y7ce/siTUqr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mturisamson69-tech/mmu-bike-rentals/blob/main/mturisamson69-tech/lab%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ohm's Law Calculator\n",
+        "\n",
+        "try:\n",
+        "    voltage = float(input(\"Enter voltage (V): \"))\n",
+        "    resistance = float(input(\"Enter resistance (Ohms): \"))\n",
+        "\n",
+        "    if resistance != 0:\n",
+        "        current = voltage / resistance\n",
+        "        print(\"Current (A):\", current)\n",
+        "    else:\n",
+        "        print(\"Error: Resistance cannot be zero\")\n",
+        "\n",
+        "except ValueError:\n",
+        "    print(\"Error: Please enter valid numbers only\")"
+      ],
+      "metadata": {
+        "id": "kHVWgzi89fgB",
+        "outputId": "0bb4da87-641b-4c46-d458-2c36c8d07695",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter voltage (V): 12\n",
+            "Enter resistance (Ohms): 5\n",
+            "Current (A): 2.4\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
